@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+    
+    <!-- 🔗 ربط TestListener -->
+    <listeners>
+        <listener class-name="productstore.TestListener"/>
+    </listeners>
+
+    <test name="ProductStoreTests">
+        <classes>
+            <!-- 👇 هذا اسم كلاس التست، غيره لاسم كلاس التست عندك -->
+            <class name="productstore.testcases"/>
+        </classes>
+    </test>
+
+</suite>
